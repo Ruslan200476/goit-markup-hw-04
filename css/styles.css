@@ -128,6 +128,8 @@ a {
 
 /*-------------- Contacts --------------*/
 .header-contacts .link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -435,7 +437,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.footer-socials-item {
+.footer-socials-link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -447,8 +449,8 @@ a {
 .footer-socials-icon {
   fill: var(--secondary-text-color);
 }
-.footer-socials-item:hover,
-.footer-socials-item:focus {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   background-color: var(--akcent-text-color);
 }
 .footer-socials-item:not(:last-child) {
